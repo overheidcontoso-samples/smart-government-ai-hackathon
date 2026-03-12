@@ -37,29 +37,29 @@ Getting started with Fabric
 
 - Enter the username and press submit:
 
-<img src="../images/image1.png" width="442px" alt="image1.png">
+<img src="../images/image41.png" width="442px" alt="image1.png">
 
 - Enter the received password (TAP) and press Sign in
 
-<img src="../images/image2.png" width="305px" alt="image2.png">
+<img src="../images/image42.png" width="305px" alt="image2.png">
 
 - Once logged in, you will arrive at the Fabric home page. From this page we will navigate to your Workspace. The name of your workspace is equal to the username used, for example Decentral01.
 
-<img src="../images/image3.png" width="308px" alt="image3.png">
+<img src="../images/image43.png" width="308px" alt="image3.png">
 
 ### 👣 Step 2: Create Lakehouse
 
 - Now create a Lakehouse within your workspace via New item.
 
-<img src="../images/image4.png" width="217px" alt="image4.png">
+<img src="../images/image44.png" width="217px" alt="image4.png">
 
 - Search for Lakehouse in the opened window
 
-<img src="../images/image5.png" width="199px" alt="image5.png">
+<img src="../images/image45.png" width="199px" alt="image5.png">
 
 - Create a Lakehouse with a simple name like UsernameLakehouse
 
-<img src="../images/image6.png" width="410px" alt="image6.png">
+<img src="../images/image46.png" width="410px" alt="image6.png">
 
 ### 👣 Step 3: Create a shortcut
 
@@ -67,7 +67,7 @@ For the Data Agent we will use data from a shared Workspace. To access this data
 
 - Navigate to the newly created Lakehouse:
 
-<img src="../images/image7.png" width="341px" alt="image7.png">
+<img src="../images/image47.png" width="341px" alt="image7.png">
 
 - Create a shortcut within the schema dbo under Tables.
 
@@ -75,27 +75,27 @@ For the Data Agent we will use data from a shared Workspace. To access this data
 
 - The tables we are going to use are in another Lakehouse. Select Microsoft OneLake.
 
-<img src="../images/image9.png" width="320px" alt="image9.png">
+<img src="../images/image49.png" width="320px" alt="image9.png">
 
 - Select the following Lakehouse.
 
-<img src="../images/image10.png" width="384px" alt="image10.png">
+<img src="../images/image50.png" width="384px" alt="image10.png">
 
 - Select the following two tables.
 
-<img src="../images/image11.png" width="254px" alt="image11.png">
+<img src="../images/image51.png" width="254px" alt="image11.png">
 
 - Check if it is correct and press Create
 
-<img src="../images/image12.png" width="506px" alt="image12.png">
+<img src="../images/image52.png" width="506px" alt="image12.png">
 
 - Check if the tables have been added.
 
-<img src="../images/image13.png" width="263px" alt="image13.png">
+<img src="../images/image53.png" width="263px" alt="image13.png">
 
 - Go back to the Workspace by clicking on the Workspace name.
 
-<img src="../images/image14.png" width="299px" alt="image14.png">
+<img src="../images/image54.png" width="299px" alt="image14.png">
 
 **End of Lab 1**
 
@@ -121,31 +121,31 @@ Creating a Data Agent
 
 - Create a New Item from the Workspace
 
-<img src="../images/image15.png" width="268px" alt="image15.png">
+<img src="../images/image55.png" width="268px" alt="image15.png">
 
 - Search for a Data Agent and select Data Agent (Preview)
 
-<img src="../images/image16.png" width="252px" alt="image16.png">
+<img src="../images/image56.png" width="252px" alt="image16.png">
 
 - Give the Data Agent a name and create it with Create.
 
-<img src="../images/image17.png" width="268px" alt="image17.png">
+<img src="../images/image57.png" width="268px" alt="image17.png">
 
 - Once the Data Agent is created we will assign the data from the Lakehouse. Under No data added press Add Data.
 
-<img src="../images/image18.png" width="133px" alt="image18.png">
+<img src="../images/image58.png" width="133px" alt="image18.png">
 
 - Use your own lakehouse here and select Add
 
-<img src="../images/image19.png" width="404px" alt="image19.png">
+<img src="../images/image59.png" width="404px" alt="image19.png">
 
 - You will now see the Lakehouse added to the Data Agent, next we select the table eindhoven_vergunningen:
 
-<img src="../images/image20.png" width="261px" alt="image20.png">
+<img src="../images/image60.png" width="261px" alt="image20.png">
 
 - Let's try now if the Data Agent can indeed answer questions about the data. Ask the following simple question: How many permits are there in the permits table?
 
-<img src="../images/image21.png" alt="image21.png">
+<img src="../images/image61.png" alt="image21.png">
 
 End of Lab 2
 

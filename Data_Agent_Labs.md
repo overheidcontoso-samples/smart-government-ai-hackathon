@@ -196,8 +196,7 @@ Aanmaken van een Data Agent
 - Je ziet nu de Lakehouse toegevoegd aan de Data Agent, vervolgens selecteren we de tabel eindhoven_vergunningen:
 
 
-<img src="images/image6
-0.png" width="261px" alt="image20.png">
+<img src="images/image60.png" width="261px" alt="image20.png">
 
 
 - Laten we nu proberen of de Data Agent inderdaad ook vragen kan beantwoorden op de data. Stel de volgende simpele vraag: Hoeveel vergunningen zitten er in de vergunningen tabel?
