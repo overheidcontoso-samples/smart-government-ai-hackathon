@@ -319,6 +319,26 @@ De straatnamen zijn afgebroken na het eerste woord, dat klopt dus helaas bepaald
   - Question: Geef een top 5 van de straten met de meeste vergunningsaanvragen?
   - Query:
 
+```
+WITH eindhoven_postcodes AS (
+    SELECT
+        POSTCODE6,
+        STRAATNAAM = MIN(STRAATNAAM)
+    FROM dbo.eindhoven_postcode_buurt_wijk
+    GROUP BY POSTCODE6
+)
+SELECT TOP (5)
+    d.STRAATNAAM,
+    COUNT(*) AS aantal_vergunningsaanvragen
+FROM dbo.eindhoven_vergunningen AS ev
+INNER JOIN eindhoven_postcodes AS d
+    ON ev.Postcode = d.POSTCODE6
+GROUP BY
+    d.STRAATNAAM
+ORDER BY
+    aantal_vergunningsaanvragen DESC,
+    d.STRAATNAAM ASC;
+```
 
 <img src="images/image33.png" width="426px" alt="image33.png">
 
