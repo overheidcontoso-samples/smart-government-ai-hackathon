@@ -7,7 +7,7 @@ We gaan als eerste aan de slag met Microsoft Fabric Agents. Data Agents in Micro
 
 In dit document doorloop je stap voor stap hoe je inlogt op Microsoft Fabric, een Lakehouse aanmaakt, shortcuts aanmaakt naar een ander Lakehouse en hoe je deze data kunt gebruiken met Data Agents In Microsoft Fabric.
 
-Deze hackathon is bedoeld voor developers, solution architects, data engineers, AIspecialisten en innovators binnen de gemeentes en overheidsorganisaties.
+Deze hackathon is bedoeld voor developers, solution architects, data engineers, AIspecialisten en innovators binnen de gemeentes en andere overheidsorganisaties.
 
 Inhoud van de Labs
 
